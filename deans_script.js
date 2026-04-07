@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
         default: {
             title: "SELECT YOUR NAME",
             projects: [
-                { name: "Hon'ble Dr. G. Mahendran", sub: "Dean (IQAC)", img: "gettyimages-1452644429-612x612.jpg" },
+                { name: "Hon'ble Dr. G. Mahendran", sub: "Dean (IQAC)", img: "deans/G. Mahendran.jpeg" },
                 { name: "Hon'ble Prof. Rohini Pochhi", sub: "Associate Dean (IQAC)", img: "deans/ROHINI_POCHHI.jpg" },
                 { name: "Hon'ble Dr. Sameer Potdar", sub: "Dean (SDC)", img: "deans/sammer_potdar.jpeg" },
                 { name: "Hon'ble Dr. Nitin Chore", sub: "Dean (TNP)", img: "deans/Nitin-chore.jpg" }
