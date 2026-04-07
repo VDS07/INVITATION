@@ -283,16 +283,16 @@ document.addEventListener("DOMContentLoaded", () => {
             projects: [
                 { name: "Prof. Anita Yadav", sub: "HOD (CSE)", img: "hod/Anita_Yadav.jpg" },
                 { name: "Prof. Abhay Rewatkar", sub: "HOD (IT)", img: "hod/Abhay_Revatkar IT.jpg" },
-                { name: "Prof. Suraj Mahajan", sub: "HOD (AI & ML)", img: "hod/Suraj_Mahajan AIML.jpg" },
-                { name: "Prof. Nilesh Nagrale", sub: "HOD (DS)", img: "hod/Nilesh_Nagrale DS.jpg" },
+                { name: "Prof. Suraj Mahajan", sub: "HOD (AIML)", img: "hod/Suraj_Mahajan AIML.jpg" },
+                { name: "Prof. Nilesh Nagrale", sub: "HOD (CSE DS)", img: "hod/Nilesh_Nagrale DS.jpg" },
                 { name: "Prof. Vishwajit Ambade", sub: "HOD (AE)", img: "hod/Ambade AE.jpg" },
                 { name: "Dr. A Muthuraja", sub: "HOD (ME)", img: "hod/Dr. A Muthuraja.jpeg" },
                 { name: "Prof. Chetan Jambhulkar", sub: "HOD (ECE)", img: "hod/Chetan_Jambhulkar ECE.jpg" },
-                { name: "Prof. Praful Gadge", sub: "HOD (EE)", img: "hod/Praful_Ghadge EE.jpg" },
+                { name: "Prof. Praful Gadghe", sub: "HOD (EE)", img: "hod/Praful_Ghadge EE.jpg" },
                 { name: "Dr. Aasif Baig", sub: "HOD (Civil)", img: "hod/Asif_Baig CE.jpg" },
                 { name: "Dr. Rohit Kalnake", sub: "HOD (BT)", img: "hod/Rohit_Kalnake BT.jpg" },
-                { name: "Dr Mammta Takarkhede", sub: "HOD First Year", img: "hod/Mamta_Takarkhede.jpeg" },
-                { name: "Prof. Pranjali lute", sub: "HOD First Year", img: "hod/pranjali lute.jpeg" },
+                { name: "Dr Mamta Takarkhede", sub: "HOD First Year", img: "hod/Mamta_Takarkhede.jpeg" },
+                { name: "Prof. Pranjali Lute", sub: "HOD First Year", img: "hod/pranjali lute.jpeg" },
                 { name: "Prof.Rahul Ingle", sub: "HOD First Year", img: "hod/Rahul_Ingle.jpeg" },
                 { name: "Prof.Rahul Ghotkar", sub: "HOD First Year", img: "hod/Rahul_ghotkar.jpeg" }
             ]
