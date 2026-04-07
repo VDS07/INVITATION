@@ -311,7 +311,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const item = document.createElement('div');
             item.className = 'portfolio-item';
             item.innerHTML = `
-                <a href="file:///C:/Users/shinr/Desktop/aixplore-invite.html">
+                <a href="aixplore-invite.html">
                     <img src="${proj.img}" alt="${proj.name}" class="portfolio-img">
                 </a>
                 <div class="portfolio-info">
