@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videohut | StoryStream Studios</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Syne for heading, Plus Jakarta Sans or Inter for body. We'll use Instrument Sans or Syne for logo. Let's use Syne and Inter -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+    <!-- Hero Section -->
+    <section class="hero-wrapper" id="home">
+        <div class="hero-inner">
+            <!-- Top Left Menu Button -->
+            <div class="header-left">
+                <button class="menu-btn">
+                    <span class="menu-text">MENU</span>
+                </button>
+            </div>
+
+            <!-- Top Right Title -->
+            <div class="header-right">
+                <h1 class="pixel-title">WELCOME<br>TO</h1>
+                <p class="pixel-subtitle">The tech event of CSE </p>
+            </div>
+
+            <!-- Side Menu Overlay -->
+            <div class="side-menu">
+                <div class="side-menu-inner">
+                    <button class="close-menu-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                    <nav class="side-nav-links">
+                        <a href="#home" class="side-nav-item">Home</a>
+                        <a href="#projects" class="side-nav-item">Projects</a>
+                        <a href="#showreel" class="side-nav-item">Showreel</a>
+                        <a href="#services" class="side-nav-item">Services</a>
+                        <a href="#about" class="side-nav-item">About</a>
+                        <a href="#contact" class="side-nav-item">Contact</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="background-wrapper">
+                <div class="bg-overlay"></div>
+            </div>
+            <section class="hero">
+                <div class="flowing-cards-perspective">
+                    <div class="flowing-cards-rotation">
+                        <div class="flowing-cards-track">
+                            <!-- Group 1 -->
+                            <div class="card-group">
+                                <div class="flowing-card"><video src="reels/video%201.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%202.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%203.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%204.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%206.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%2011.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/Vertical_Video_1.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/Video_Generation_Complete.mp4" autoplay loop
+                                        muted playsinline preload="metadata"></video></div>
+                            </div>
+                            <!-- Group 2 (Duplicate for infinite scroll) -->
+                            <div class="card-group">
+                                <div class="flowing-card"><video src="reels/video%201.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%202.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%203.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%204.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%206.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/video%2011.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/Vertical_Video_1.mp4" autoplay loop muted
+                                        playsinline preload="metadata"></video></div>
+                                <div class="flowing-card"><video src="reels/Video_Generation_Complete.mp4" autoplay loop
+                                        muted playsinline preload="metadata"></video></div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Showreel Section -->
+    <section class="showreel-section" id="showreel">
+        <div class="showreel-container">
+            <h2 class="showreel-text">AIXPLORE</h2>
+            <div class="video-wrapper">
+                <div class="video-inner">
+                    <video src="showreel/t3oWwHTiHPdqvISgXglF9dJecA.mp4" class="video-cover" autoplay loop muted
+                        playsinline preload="metadata"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Marquee Section -->
+    <section class="brands-section">
+        <div class="brands-container">
+            <h3 class="brands-title">WELCOME TO CSE DEPARTMENT FOR AIXPLORE</h3>
+            <div class="brands-marquee-wrapper">
+                <div class="brands-marquee-track">
+                    <!-- Original logos -->
+                    <div class="brand-logo"><img src="logo/Institutions_Innovation_Council_IIC.png" alt="IIC Logo">
+                    </div>
+                    <div class="brand-logo"><img src="logo/WhatsApp%20Image%202026-04-06%20at%2011.11.48%20AM.jpeg"
+                            alt="Logo"></div>
+                    <div class="brand-logo"><img src="logo/WhatsApp%20Image%202026-04-06%20at%2011.11.49%20AM.jpeg"
+                            alt="Logo"></div>
+                    <div class="brand-logo"><img src="logo/blogohd.jpg.jpeg" alt="Blogo"></div>
+                    <div class="brand-logo"><img src="logo/cis%20logo.jpg.jpeg" alt="CIS Logo"></div>
+                    <div class="brand-logo"><img src="logo/image_2024-08-15_233742062-removebg-preview.png" alt="Logo">
+                    </div>
+                    <div class="brand-logo"><img src="logo/logo%201321.png" alt="Logo 1321"></div>
+                    <div class="brand-logo"><img src="logo/logo%20student%20branch%20IEEE.png" alt="IEEE Logo"></div>
+                    <div class="brand-logo"><img src="logo/logo-light.png" alt="Logo Light"></div>
+                    <div class="brand-logo"><img src="logo/s.png" alt="S Logo"></div>
+
+                    <!-- Duplicated logos for infinite scroll -->
+                    <div class="brand-logo"><img src="logo/Institutions_Innovation_Council_IIC.png" alt="IIC Logo">
+                    </div>
+                    <div class="brand-logo"><img src="logo/WhatsApp%20Image%202026-04-06%20at%2011.11.48%20AM.jpeg"
+                            alt="Logo"></div>
+                    <div class="brand-logo"><img src="logo/WhatsApp%20Image%202026-04-06%20at%2011.11.49%20AM.jpeg"
+                            alt="Logo"></div>
+                    <div class="brand-logo"><img src="logo/blogohd.jpg.jpeg" alt="Blogo"></div>
+                    <div class="brand-logo"><img src="logo/cis%20logo.jpg.jpeg" alt="CIS Logo"></div>
+                    <div class="brand-logo"><img src="logo/image_2024-08-15_233742062-removebg-preview.png" alt="Logo">
+                    </div>
+                    <div class="brand-logo"><img src="logo/logo%201321.png" alt="Logo 1321"></div>
+                    <div class="brand-logo"><img src="logo/logo%20student%20branch%20IEEE.png" alt="IEEE Logo"></div>
+                    <div class="brand-logo"><img src="logo/logo-light.png" alt="Logo Light"></div>
+                    <div class="brand-logo"><img src="logo/s.png" alt="S Logo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="projects">
+        <div class="portfolio-header">
+            <h2 class="portfolio-title">SELECT YOUR NAME</h2>
+
+        </div>
+
+        <div class="portfolio-horizontal-wrapper">
+            <div class="portfolio-track">
+                <!-- Project 1 -->
+                <div class="portfolio-item">
+                    <img src="management/Mohan-Gaikwad.jpg" alt="Hon'ble Dr. Mohan Gaikwad Patil" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-name">Hon'ble Dr. Mohan Gaikwad Patil</h3>
+                        <p class="portfolio-sub">Chairman</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-item">
+                    <img src="management/Akash-Gaikwad.jpg" alt="Hon'ble Mr. Akash Gaikwad Patil" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-name">Hon'ble Mr. Akash Gaikwad Patil</h3>
+                        <p class="portfolio-sub">Vice Chairman</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-item">
+                    <img src="management/Sandeep-Gaikwad.jpg" alt="Hon'ble Dr. Sandeep Gaikwad" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-name">Hon'ble Dr. Sandeep Gaikwad</h3>
+                        <p class="portfolio-sub">Treasurer</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="portfolio-item">
+                    <img src="management/Anjali-Patil.jpg" alt="Dr. Anjali Patil-Gaikwad" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-name">Dr. Anjali Patil-Gaikwad</h3>
+                        <p class="portfolio-sub">President</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Cursor for Video Hover -->
+    <div class="custom-cursor">
+        <span class="cursor-text">CLICK<br>ME</span>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <!-- Vertical grid lines background -->
+        <div class="grid-lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
