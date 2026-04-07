@@ -637,7 +637,8 @@ body {
 .portfolio-sub {
     font-family: var(--font-body);
     font-size: 0.9rem;
-    color: var(--color-text-muted);
+    color: #ffffff;
+    opacity: 1;
 }
 
 /* Custom Cursor */
@@ -769,7 +770,8 @@ body:hover .custom-cursor {
     font-family: var(--font-body);
     font-size: 0.95rem; /* Slightly smaller desc */
     line-height: 1.6;
-    color: var(--color-text-muted);
+    color: #ffffff;
+    opacity: 1;
     margin-bottom: 25px; /* Tighter margin above the button */
 }
 
@@ -969,7 +971,8 @@ body:hover .custom-cursor {
 .industry-desc {
     font-family: var(--font-body);
     font-size: 1rem;
-    color: var(--color-text-muted);
+    color: #ffffff;
+    opacity: 1;
     line-height: 1.6;
     margin-top: 40px;
     opacity: 0;
@@ -1749,3 +1752,7 @@ body:hover .blog-cursor {
         height: 12px;
     }
 }
+
+/* Portfolio Sub Title Opacity to 100% */
+.portfolio-sub { color: #ffffff !important; opacity: 1 !important; }
+
