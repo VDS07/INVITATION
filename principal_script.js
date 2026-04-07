@@ -282,8 +282,8 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "SELECT YOUR NAME",
             projects: [
                 { name: "Hon'ble Dr. P. L. Naktode", sub: "Principal", img: "principal/Naktode.jpg" },
-                { name: "Dr. Ganesh Wakte", sub: "Vice Principal", img: "principal/ganesh_wakte.jpeg" },
-                { name: "Prof .Nadir Hussain", sub: "Vice Principal", img: "hod/nadir hussain.jpeg" }
+                { name: "Hon'ble Dr. Ganesh Wakte", sub: "Vice Principal", img: "principal/ganesh_wakte.jpeg" },
+                { name: "Hon'ble Prof .Nadir Hussain", sub: "Vice Principal", img: "hod/nadir hussain.jpeg" }
             ]
         }
     };

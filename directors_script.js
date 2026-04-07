@@ -281,13 +281,13 @@ document.addEventListener("DOMContentLoaded", () => {
         default: {
             title: "SELECT YOUR NAME",
             projects: [
-                { name: "Dr. Pragati Patil", sub: "Director (Administration)", img: "director/Pragati_Patil.jpg" },
+                { name: "Hon'ble Dr. Pragati Patil", sub: "Director (Administration)", img: "director/Pragati_Patil.jpg" },
                 { name: "Hon'ble Dr. Mukul Pande", sub: "Director (IT)", img: "director/Mukul_Pande.jpg" },
                 { name: "Hon'ble Mrs. Surekha Raut", sub: "Director (Finance)", img: "director/Surekha_Raut.jpg" },
                 { name: "Hon'ble Prof. Ritesh Banpurkar", sub: "Director (Academics)", img: "director/Ritesh_Banpurkar.jpg" },
                 { name: "Hon'ble Dr. Pratik Ghutke", sub: "Director (Examination)", img: "director/Pratik_Ghutke.jpg" },
                 { name: "Hon'ble Dr. Amey Khedikar", sub: "Director (Welfare)", img: "director/Amey_Khedikar.jpg" },
-                { name: "Dr. Akbar Ahmed", sub: "Director (R & I)", img: "director/Akbar Ahmed.jpeg" }
+                { name: "Hon'ble Dr. Akbar Ahmed", sub: "Director (R & I)", img: "director/Akbar Ahmed.jpeg" }
             ]
         }
     };

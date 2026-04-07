@@ -284,7 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { name: "Hon'ble Dr. Mohan Gaikwad Patil", sub: "Chairman", img: "management/Mohan-Gaikwad.jpg" },
                 { name: "Hon'ble Mr. Akash Gaikwad Patil", sub: "Vice Chairman", img: "management/Akash-Gaikwad.jpg" },
                 { name: "Hon'ble Dr. Sandeep Gaikwad", sub: "Treasurer", img: "management/Sandeep-Gaikwad.jpg" },
-                { name: "Dr. Anjali Patil-Gaikwad", sub: "President", img: "management/Anjali-Patil.jpg" }
+                { name: "Hon'ble Dr. Anjali Patil-Gaikwad", sub: "President", img: "management/Anjali-Patil.jpg" }
             ]
         }
     };
